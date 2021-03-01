@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    .flip-box {
+  background-color: transparent;
+  width: 637px;
+  height: 500px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: gray;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-box-back {
+  transform: rotateX(180deg);
+}
+</style>
+<body style="background-color:darkmagenta;">
+    <div class="container-fluid">
+        <div class="row">
+            <div col-lg-6>
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                        <img class="img-responsive" style="height: 500px;width: 637px;" src="ce1.jpg" alt="">
+                      </div>
+                      <div class="flip-box-back">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <h2 >certified on the inetrview skills conducted by TCS ION.</h2>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div col-lg-6>
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                        <img class="img-responsive" style="height: 500px;width: 637px;" src="ce2.jpg" alt="">
+                      </div>
+                      <div class="flip-box-back">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h2 >certified on the communication skills conducted by TCS ION.</h2>
+                        
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+          <div col-lg-6>
+              <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img class="img-responsive" style="height: 500px;width: 637px;" src="ce3.jpg" alt="">
+                    </div>
+                    <div class="flip-box-back">
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <h2>certified on the HTML fundamentals course conducted by sololearn.</h2>
+
+                     
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div col-lg-6>
+              <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img class="img-responsive" style="height: 500px;width: 637px;" src="ce4.jpg" alt="">
+                    </div>
+                    <div class="flip-box-back">
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <h2 >certified on the python course conducted by progate.</h2>
+                      
+                    </div>
+                  </div>
+                </div>
+          </div>
+      </div>
+      <div class="row">
+        <div col-lg-6>
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <img class="img-responsive" style="height: 500px;width: 637px;" src="ce5.jpg" alt="">
+                  </div>
+                  <div class="flip-box-back">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h2>certified on the learn all the basics of python conducted by udemy.</h2>
+
+                    
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div col-lg-6>
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <img class="img-responsive" style="height: 500px;width: 637px;" src="ce6.jpg" alt="">
+                  </div>
+                  <div class="flip-box-back">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h2 >certified on the practical python programming practices conducted by udemy.</h2>
+                    
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row">
+      <div col-lg-6>
+          <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img class="img-responsive" style="height: 500px;width: 637px;" src="DSA coding contest.jpg" alt="">
+                </div>
+                <div class="flip-box-back">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <h2>participated in the DSA coding contest by GirlsScript bangalore.</h2>
+
+                 
+                </div>
+              </div>
+            </div>
+      </div>
+      <div col-lg-6>
+          <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img class="img-responsive" style="height: 500px;width: 637px;" src="GirlsScript bootcamp.jpg" alt="">
+                </div>
+                <div class="flip-box-back">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <h2 >participated in the online bootcamp on python by GirlsScript bangalore.</h2>
+                  
+                </div>
+              </div>
+            </div>
+      </div>
+  </div>
+  <div class="row">
+    <div col-lg-6>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img class="img-responsive" style="height: 500px;width: 637px;" src="inter1 marketing.jpg" alt="">
+              </div>
+              <div class="flip-box-back">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>Successfully completed the 1 month internship on marketing managment in teckat.</h2>
+
+                
+              </div>
+            </div>
+          </div>
+    </div>
+    <div col-lg-6>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img class="img-responsive" style="height: 500px;width: 637px;" src="pledge a smile-page-001.jpg" alt="">
+              </div>
+              <div class="flip-box-back">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2 >Successfully completed the 1 month   fundraising internship from pleadge a smile foundation.</h2>
+                
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+<div class="row">
+  <div col-lg-6>
+      <div  class="flip-box">
+          <div  class="flip-box-inner">
+            <div  class="flip-box-front">
+            <img  class="img-responsive" style="height: 500px;width: 637px;" src="ANIL KUMAR_R_Hired_Certificate-page-001.jpg" alt="">
+            </div>
+            <div class="flip-box-back">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+
+              <h2 >Successfully completed the 1 month   web development internship in yash sewa samiti(internshla).</h2>
+            </div>
+          </div>
+        </div>
+  </div>
+  
+  </div>
+</div>
+    </div>
+    
+    
+</body>
+</html>
